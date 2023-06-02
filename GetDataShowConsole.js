@@ -1,3 +1,3 @@
 const response = await fetch("https://url/");
   const jsonData = await response.json();
-  document.write(jsonData[2].Convenio)
+  document.write(jsonData)
