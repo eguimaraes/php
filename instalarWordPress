@@ -1,0 +1,12 @@
+#https://www.hostinger.com.br/tutoriais/como-instalar-wordpress-ubuntu?ppc_campaign=google_search_generic_hosting_all&bidkw=defaultkeyword&lo=1001773&gad_source=1&gclid=CjwKCAiApaarBhB7EiwAYiMwqoQLUBf1oIu0gTp45UbsnkaUkQugzTc-Wr-y4xRaOVfGCgZwlXmTphoCJ7EQAvD_BwE
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt install apache2
+sudo apt install php libapache2-mod-php php-mysql php-curl php-gd php-xml php-mbstring php-xmlrpc php-zip php-soap php-soap php-intl -y
+sudo nano /etc/apache2/mods-enabled/dir.conf
+sudo systemctl restart apache2
+cd /var/www/html
+sudo nano sample.php
+sudo rm /var/wwww/html/sample.php
+sudo apt install mysql-server -y
+sudo mysql
